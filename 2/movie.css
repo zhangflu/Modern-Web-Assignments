@@ -1,0 +1,108 @@
+body{
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    padding: 0pt;
+    margin: 0pt;
+}
+div.banner{
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 50px;
+}
+h1{
+    text-align: center;
+    font-weight: bold; 
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+div.main_block{
+    width: 800px;
+    border: 4px gray solid;
+    overflow: hidden;
+    margin: 0 auto;
+}
+div.right_block{
+    width: 250px;
+    float: right;
+    background-color:#A2B964;
+}
+div.left_block{
+    float:left;
+    width:550px;
+}
+div.left_block_title{
+    height: 83px;
+    background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000);
+}
+img.rotten{
+    float: left;
+}
+span.rating{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+span.reviews{
+    font-size: 8pt;
+    color: white;
+    vertical-align: middle;
+}
+div.side{
+    display: inline;
+}
+div.left_side{
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float:left;
+    margin-bottom: 3em;
+}
+div.right_side{
+    width: 47%;
+    margin-right: 2%;
+    float:right;
+    margin-bottom: 3em;
+}
+p.quote{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E1D697;
+    /*border: 2px gray thick;*/
+    border: 2px gray solid;
+    padding: 8px;
+    overflow: hidden;
+}
+img.icon{
+    float: left;
+    margin-right: 5px;
+}
+img.overview{
+    margin-bottom: 10px;
+}
+dl{
+    font-size: 8pt;
+    font-family: Arial,sans-serif;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+dt{
+    font-weight: bold;
+    margin-top: 1em;
+}
+dt.exc{
+    font-weight: bold;
+    margin-top: 0em;
+}
+div.page{
+    background-color: #A2B964;
+    height: 14px;
+    clear:both;
+    text-align: center;
+}
+div.adiv{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,185 @@
+li{
+    list-style: none;
+}
+#botton{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    transform: translateX(-50px) translateY(-60px);
+}
+#info-bar{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#button:hover #info-bar{
+    transform: translateX(-50px) translateY(-165px);
+    height: 145px;
+    width: 145px;
+}
+.page_user,.page_comment,.mine_posted,.mine_liked,{
+    position: absolute;
+}
+.people{
+    position: absolute;
+    transform: scale(1.2) translateX(8px) translateY(-5px);
+}
+.n14{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 17px;
+    transform: translateX(40px) translateY(-5px);
+}
+.comment{
+    transform: scale(1.3);
+    position: absolute;
+    transform: scale(1.2) translateX(0px) translateY(31px);
+}
+.n20{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    position: absolute;
+    transform: translateX(35px) translateY(29px);
+}
+.post{
+    transform: scale(1.3);
+    position: absolute;
+    transform: scale(1.2) translateX(-12px) translateY(65px);
+}
+.n3{
+    color: #38d59a;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+    position: absolute;
+    transform: translateX(14px) translateY(75px);
+}
+.like{
+    transform: scale(1.3);
+    position: absolute;
+    transform: scale(1.2) translateX(32px) translateY(65px);
+}
+.n4{
+    color: #38d59a;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+    position: absolute;
+    transform: translateX(73px) translateY(75px);
+}
+#control-ring li{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    background-color: #686868;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.history_button{
+    background-image: url("assets/images/history.png");
+}
+#button:hover .history_button{
+    transform: translateX(-103px);
+    opacity: 1;
+}
+.mask_button{
+    background-image: url("assets/images/mask.png");
+}
+#button:hover .mask_button{
+    transform: translateX(-90px) translateY(-50px);
+    opacity: 1;
+}
+.message_button{
+    background-image: url("assets/images/message.png");
+}
+#button:hover .message_button{
+    transform: translateX(-90px) translateY(50px);
+    opacity: 1;
+}
+.setting_button{
+    background-image: url("assets/images/setting.png");
+}
+#button:hover .setting_button{
+    transform: translateX(-55px) translateY(90px);
+    opacity: 1;
+}
+.sign_button{
+    background-image: url("assets/images/signin.png");
+}
+#button:hover .sign_button{
+    transform: translateY(103px);
+    opacity: 1;
+}
+.apb{
+    opacity: 1;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    background-color: #999ed4;
+    background-image: url("assets/images/atplus_white.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#button:hover .apb{
+    opacity: 1;
+    background-color: rgba(48, 63, 159, 1);
+    transform: translateX(-10px) translateY(-10px);
+    background-image: url("assets/images/atplus_green.png");
+    height: 65px;
+    width: 65px;
+}
+.hidden{
+    opacity: 0;
+}
+.unread{
+    position: relative;
+    background-color: #fd3932;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    color:white;
+    width: 20px;
+    height: 20px;
+    transform: translateX(30px) translateY(-30px);
+    font-size: 15px;
+}
+/*#7e7e7e*/
+#sub{
+    opacity: 0;
+    border: 2px solid black;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transform: translateX(-53px) translateY(-53px);
+}

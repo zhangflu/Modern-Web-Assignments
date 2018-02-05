@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maze</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--
+	<link rel="icon" sizes="196x196" href="img/fav.jpg">
+	-->
+	<script src="run.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="head">
+		<div id="h1">The Amazing Mouse Maze!</div>
+		<div id="h2">Move your mouse over the "S" to begin.</div>
+		<div class="res_msg"></divs>
+	</div>
+	<br>
+	<div id="maze">	
+		<div id="control_up" class="control">
+			<div class="block" id="up1"></div><div class="block" id="up2"></div><div class="block" id="up3"></div>
+		</div>
+		<div id="control_midup" class="control">
+			<div class="block" id="mup1"></div><div class="way" id="w4"></div><div class="way" id="w5"></div><div class="way" id="w6"></div><div class="block" id="mup2"></div>
+		</div>
+		<div id="control_midmid" class="control">
+			<div id="mm1" class="block"></div><div id="w3" class="way"></div><div id="mm2" class="block"></div><div id="w7" class="way"></div><div id="mm3" class="block"></div>
+		</div>
+		<div id="control_midown" class="control">
+			<div id="start" class="run"></div><div id="w1" class="way"></div><div id="w2" class="way"></div><div id="md1" class="block"></div><div id="w8" class="way"></div><div id="w9" class="way"></div><div id="end" class="run"></div>
+		</div>
+		<div id="control_down" class="control">
+			<div id="down1" class="block"></div><div id="down23" class="block"></div><div id="down26" class="block"></div><div id="down29" class="block"></div><div id="down3" class="block"></div>
+		</div>
+	</div>
+	<br>
+	<div id="tell">
+		<div id="s">S</div>
+		<div id="e">E</div>
+		<div id="msg">The object of this game is to guide the mouse cursor through the start area and get to the end area.Be sure to avoid the walls:</div>
+		<br>
+		<div id="wall"></div>
+		<div id="luck">Good luck!</div>
+	</div>
+</body>
+</html>

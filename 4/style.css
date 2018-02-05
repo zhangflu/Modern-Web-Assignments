@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+body{
+	font-size:14px;
+	color:#666;
+	background:#E6E6E6;
+}
+#container{
+	width:300px;
+	margin:100px auto;
+	background:#E6E6E6;
+	border:0.5px solid black;
+}
+#text{
+	font-family: "courier new";
+	font-weight: bold;
+	width:280px;
+	border:0.1px solid #c2c2c2;
+	height:50px;
+	margin:10px;
+	font-size:26px;
+	text-align:right;
+	background:#E6E6E6;
+}
+.button , .button_del , .button_fun{
+	font-family: "courier new";
+	width:70px;
+	height:50px;
+	margin-bottom:5px;
+	border:0.1px solid #ddd;
+	font-weight:bold;
+	font-size: 18px;
+	background:#F0F0F0;
+	transform: translateX(4px);
+}
+.button_fun{
+	background-color: #DFDFDF;
+}
+.button_del{
+	background-image: url("img/delete.png");
+	background-size: 40% 60%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.button:hover{
+	background:#DFDFDF;
+}
+.button_del:hover{
+	background:#DFDFDF;
+	background-image: url("img/delete.png");
+	background-size: 40% 60%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.button_fun:hover{
+	background:#B6DAFE;
+	color: white;
+}
+
+.button_active{
+	background:#DFDFDF;
+}
+.button_s_active{
+	background:#B6DAFE;
+	color: white;
+}

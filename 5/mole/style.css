@@ -1,0 +1,58 @@
+#h1, #h2, #h3, #run, .display, .display_msg{
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 20px;
+	font-weight: 500;
+}
+#h2{
+	font-size: 13px;
+}
+#h3, .display{
+	font-size: 17px;
+}
+#h1, #h2{
+	transform: translateX(-15px);
+}
+.display_msg{
+	font-size: 16px;
+}
+#contr{
+	margin: 0 auto;
+	width: 260px;
+	height: 60px;
+}
+.control{
+	display: inline-block;
+}
+#run{
+	font-size: 8px;
+}
+.display{
+	border: black solid 0.5px;
+}
+#head{
+	transform: translateX(20px);
+}
+.mole, .hit_mole, .miss_mole, .appear_mole{
+	border: rgb(221, 188, 148) solid 1px;
+	width: 8px;
+	height: 13px;
+	border-radius: 50%;
+	outline:none;
+	background-color: rgb(221, 188, 148);
+	margin: 2px;
+}
+.hit_mole{
+	box-shadow: inset 0 0 6px 0 rgb(2, 252, 15);
+}
+.miss_mole{
+	box-shadow: inset 0 0 6px 0 rgb(255, 0, 0);
+}
+.appear_mole{
+	box-shadow: inset 0 0 15px 0 rgb(99, 38, 26);
+}
+#game{
+	height: 150px;
+	width: 220px;
+	margin: 0 auto;
+}
